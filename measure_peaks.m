@@ -1,7 +1,7 @@
 function measurePeaks
 
-clear all
-close all
+clear all, close all
+addpath('helper-functions');
 
 % Peak detection settings (little effect on fit) 
 detSettings.quantileWidth = 100; % use 250-1500 depending on signal, magnitude of fluid density changes
